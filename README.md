@@ -25,7 +25,7 @@ Make sure you have the following software installed on your system:
 2. Navigate to the project directory:
 
     ```bash
-    cd project-name
+    cd chatbot_integrated_dashboard
     ```
 
 3. Install frontend dependencies using npm:
