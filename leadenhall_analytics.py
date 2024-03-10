@@ -40,7 +40,7 @@ def load_data(path1,path2):
     kb2=FAISS.from_texts(chunk2, embeddings)
     kb1.merge_from(kb2)
     return kb1
-knowledge_base=load_data('Dashboard_Data.xlsx','Dashboard_Data2.xlsx')
+knowledge_base=load_data('sheet1.xlsx','sheet2.xlsx')
 llm = ChatOpenAI(model_name="gpt-3.5-turbo-1106")
 qa_chain = load_qa_chain(llm, chain_type='stuff')
 def get_response(query):
