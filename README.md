@@ -41,7 +41,7 @@ Make sure you have the following software installed on your system:
 
 ### Usage
 
-Now you're all set to use the project! You can run the frontend and backend components separately or together as per your requirements.
+Now you're all set to use the project! You can run the frontend and backend components separately or together as per your requirements.Note: Replace the Open AI API Key.
 
 - To start the development server:
 
@@ -49,3 +49,28 @@ Now you're all set to use the project! You can run the frontend and backend comp
     python leadenhall_analytics.py
     ```
 
+The project is a brilliant fusion of Web Technologies - HTML , Bootsrap CSS and JavaScript with Large Language Models(LLM) chatbot integration using Python.
+## Tech Stack
+
+- Frontend:
+  - HTML
+  - JavaScript
+
+- Backend:
+  - JavaScript 
+  - Python
+  - Flask
+
+- Large Language Model:
+  - LangChain
+  - gpt-3.5-turbo
+  - OpenAI
+  - HuggingFace
+
+- Other:
+  - Git
+  - GitHub
+  - npm
+
+The Dashboard displays the Top 10 brokers and data visualisation through a Radar Chart as well as a Business Class Premiums Data. It also comes with a chatbot.
+The chatbot is built using FAISS(Facebook AI Similarity Score) to create a knowledge base using the Excel Sheets data, which is then chained to the LLM using LangChain. The LLM uses gpt-3.5-turbo-1106 model with hugging face embeddings.
